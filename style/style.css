@@ -1,0 +1,51 @@
+.title {
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  border: 10px solid red;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 10px auto;
+  width: 50%;
+  text-shadow: 2px 2px black;
+  box-shadow: 1px 1px black;
+}
+
+@media (max-width: 575px) {
+  .title {
+    font-size: 20px;
+  }
+  span {
+    display: block;
+  }
+}
+
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 75%;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
